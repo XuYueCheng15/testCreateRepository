@@ -30,6 +30,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //hhhhh
     // Override point for customization after application launch.
     FirstViewController *first = [[FirstViewController alloc] init];
     UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:first];
