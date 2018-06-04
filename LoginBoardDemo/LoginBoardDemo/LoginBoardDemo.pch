@@ -1,0 +1,32 @@
+//
+//  LoginBoardDemo.pch
+//  LoginBoardDemo
+//
+//  Created by ChenRongQin on 16/8/10.
+//  Copyright © 2016年 Afu. All rights reserved.
+//
+
+#ifndef LoginBoardDemo_pch
+#define LoginBoardDemo_pch
+
+
+#import <UIKit/UIKit.h>
+
+//获取屏幕 宽度、高度
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+
+#define RGBA(redValue,greenValue,blueValue,alphaValue) [UIColor colorWithRed:(float)(redValue)/255.0 green:(float)(greenValue)/255.0 blue:(float)(blueValue)/255.0 alpha:(alphaValue)]
+
+
+
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define IS_IPHONE_5 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 568.0f)
+#define IOS7_OR_LATER ( [[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending )
+
+#define IS_IPHONE_4S (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 480.0f)
+#define IS_IPHONE_5 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 568.0f)
+#define IS_IPHONE_6 (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 667.0f)
+#define IS_IPHONE_6S (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 736.0f)
+
+#endif /* LoginBoardDemo_pch */

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FifthViewController">
+            <connections>
+                <outlet property="headView" destination="rOx-59-k6L" id="a6P-yt-orf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rOx-59-k6L">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="vGf-CU-fMM"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2Z-hs-GSm">
+                    <rect key="frame" x="10" y="110" width="90" height="30"/>
+                    <color key="backgroundColor" red="0.12941176469999999" green="0.73333333329999995" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="选取多张图片"/>
+                    <connections>
+                        <action selector="selectMultiImageAction:" destination="-1" eventType="touchUpInside" id="4OB-uz-vpV"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="l2Z-hs-GSm" firstAttribute="top" secondItem="rOx-59-k6L" secondAttribute="bottom" constant="10" id="TWD-NC-pv8"/>
+                <constraint firstItem="rOx-59-k6L" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aDy-ys-zWJ"/>
+                <constraint firstItem="rOx-59-k6L" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hYW-Yx-qCe"/>
+                <constraint firstItem="l2Z-hs-GSm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="p7a-al-dnj"/>
+                <constraint firstAttribute="trailing" secondItem="rOx-59-k6L" secondAttribute="trailing" id="t8R-ct-nJe"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="40" y="31"/>
+        </view>
+    </objects>
+</document>
