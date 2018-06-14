@@ -21,6 +21,7 @@
 		8E9F914E1D5A0B0F00C2BF78 /* pin_star_pre.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E9F914A1D5A0B0F00C2BF78 /* pin_star_pre.png */; };
 		8E9F914F1D5A0B0F00C2BF78 /* pin_star_pre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E9F914B1D5A0B0F00C2BF78 /* pin_star_pre@2x.png */; };
 		8E9F91531D5A0D5600C2BF78 /* AMRatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9F91521D5A0D5600C2BF78 /* AMRatingControl.m */; };
+		9C1F29ED20D270C10083B4F4 /* 11111.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C1F29EC20D270C00083B4F4 /* 11111.png */; };
 		C80BB3001D59828600BFDE61 /* MMGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C80BB2F71D59828600BFDE61 /* MMGridView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C80BB3011D59828600BFDE61 /* MMGridViewBtnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C80BB2F91D59828600BFDE61 /* MMGridViewBtnCell.m */; };
 		C80BB3021D59828600BFDE61 /* MMGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C80BB2FB1D59828600BFDE61 /* MMGridViewCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -146,6 +147,7 @@
 		8E9F914B1D5A0B0F00C2BF78 /* pin_star_pre@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin_star_pre@2x.png"; sourceTree = "<group>"; };
 		8E9F91511D5A0D5600C2BF78 /* AMRatingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMRatingControl.h; sourceTree = "<group>"; };
 		8E9F91521D5A0D5600C2BF78 /* AMRatingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMRatingControl.m; sourceTree = "<group>"; };
+		9C1F29EC20D270C00083B4F4 /* 11111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11111.png; sourceTree = "<group>"; };
 		C80BB2F61D59828600BFDE61 /* MMGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGridView.h; sourceTree = "<group>"; };
 		C80BB2F71D59828600BFDE61 /* MMGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMGridView.m; sourceTree = "<group>"; };
 		C80BB2F81D59828600BFDE61 /* MMGridViewBtnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMGridViewBtnCell.h; sourceTree = "<group>"; };
@@ -359,6 +361,7 @@
 				8E3DCCFA1D55B9AE00B5A472 /* Assets.xcassets */,
 				8E3DCCFC1D55B9AE00B5A472 /* LaunchScreen.storyboard */,
 				8E3DCCFF1D55B9AE00B5A472 /* Info.plist */,
+				9C1F29EC20D270C00083B4F4 /* 11111.png */,
 				8E3DCCEE1D55B9AD00B5A472 /* Supporting Files */,
 				C8F632251D5ACC1000A42769 /* LoginBoardDemo.pch */,
 			);
@@ -802,6 +805,7 @@
 				C821B2401D5DCF29003FB018 /* img_add_pre@2x.png in Resources */,
 				C872D6431D59C49F00A2B81B /* banner-img1@3x.png in Resources */,
 				C81B85EE1D6A9F5700668DE8 /* SevenViewController.xib in Resources */,
+				9C1F29ED20D270C10083B4F4 /* 11111.png in Resources */,
 				C881C6F01D5C2A9200D47CEB /* .gitkeep in Resources */,
 				C881C72D1D5C6B0600D47CEB /* no_network.png in Resources */,
 				C872D6451D59C49F00A2B81B /* btn_white_new.png in Resources */,
